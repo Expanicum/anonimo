@@ -1,0 +1,786 @@
+2025-03-05 21:55:28,067 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 21:55:28,067 - __main__ - INFO - Database inizializzato
+2025-03-05 21:55:28,068 - __main__ - INFO - Scheduler avviato in background
+2025-03-05 21:55:28,068 - __main__ - INFO - Bot avviato - 2025-03-05 21:55:28 UTC
+2025-03-05 21:55:28,069 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 21:55:28,069 - __main__ - INFO - Scheduler avviato - 2025-03-05 21:55:28 UTC
+2025-03-05 21:55:28,073 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 21:55:28,074 - __main__ - ERROR - Errore nell'avvio del bot: Task <Task pending name='Task-4' coro=<Event.wait() running at /usr/lib/python3.8/asyncio/locks.py:309> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.8/asyncio/tasks.py:518]> got Future <Future pending> attached to a different loop
+2025-03-05 22:11:47,484 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:11:47,485 - __main__ - INFO - Database inizializzato
+2025-03-05 22:11:47,486 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:11:47,491 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:11:47,491 - __main__ - ERROR - Errore nell'avvio del bot: Task <Task pending name='Task-5' coro=<Event.wait() running at /usr/lib/python3.8/asyncio/locks.py:309> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.8/asyncio/tasks.py:518]> got Future <Future pending> attached to a different loop
+2025-03-05 22:14:34,551 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:14:34,552 - __main__ - INFO - Database inizializzato
+2025-03-05 22:14:34,553 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:14:34,557 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:14:34,557 - __main__ - ERROR - Errore nell'avvio del bot: Task <Task pending name='Task-5' coro=<Event.wait() running at /usr/lib/python3.8/asyncio/locks.py:309> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.8/asyncio/tasks.py:518]> got Future <Future pending> attached to a different loop
+2025-03-05 22:14:34,558 - __main__ - ERROR - Errore fatale: Task <Task pending name='Task-5' coro=<Event.wait() running at /usr/lib/python3.8/asyncio/locks.py:309> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.8/asyncio/tasks.py:518]> got Future <Future pending> attached to a different loop
+2025-03-05 22:14:34,559 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:14:34,559 - __main__ - INFO - Database inizializzato
+2025-03-05 22:14:34,559 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:14:34,565 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:14:34,565 - __main__ - ERROR - Errore nell'avvio del bot: Task <Task pending name='Task-12' coro=<Event.wait() running at /usr/lib/python3.8/asyncio/locks.py:309> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.8/asyncio/tasks.py:518]> got Future <Future pending> attached to a different loop
+2025-03-05 22:14:34,571 - concurrent.futures - ERROR - exception calling callback for <Future at 0x7f815f8423a0 state=finished returned list>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 328, in _invoke_callbacks
+    callback(self)
+  File "/usr/lib/python3.8/asyncio/futures.py", line 374, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 764, in call_soon_threadsafe
+    self._check_closed()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 508, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-05 22:14:34,581 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<TCPConnector._resolve_host() running at /usr/local/lib/python3.8/dist-packages/aiohttp/connector.py:874> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.8/asyncio/futures.py:360, <TaskWakeupMethWrapper object at 0x7f815f8522e0>()]> cb=[TCPConnector._create_direct_connection.<locals>.drop_exception() at /usr/local/lib/python3.8/dist-packages/aiohttp/connector.py:1158]>
+2025-03-05 22:18:37,371 - __main__ - INFO - Avvio bot...
+2025-03-05 22:18:37,373 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:18:37,373 - __main__ - INFO - Database inizializzato
+2025-03-05 22:18:37,374 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:18:37,378 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:18:37,379 - __main__ - ERROR - Errore: Task <Task pending name='Task-5' coro=<Event.wait() running at /usr/lib/python3.8/asyncio/locks.py:309> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.8/asyncio/tasks.py:518]> got Future <Future pending> attached to a different loop
+2025-03-05 22:20:10,716 - __main__ - INFO - Avvio bot...
+2025-03-05 22:20:10,717 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:20:10,718 - __main__ - INFO - Database inizializzato
+2025-03-05 22:20:10,731 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:20:10,814 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:20:19,370 - aiogram.event - INFO - Update id=166374531 is not handled. Duration 2 ms by bot id=7919097605
+2025-03-05 22:20:19,372 - aiogram.event - ERROR - Cause exception while process update id=166374531 by bot id=7919097605
+TypeError: __init__() takes exactly 1 positional argument (2 given)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 297, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 146, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/user_context.py", line 23, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 264, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 115, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 124, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "main.py", line 69, in cmd_start
+    await message.answer(MESSAGES['welcome'], reply_markup=main_menu_keyboard())
+  File "/root/SMSBot/keyboards.py", line 8, in main_menu_keyboard
+    InlineKeyboardButton("📤 Invia Messaggio", callback_data="send_message"),
+  File "pydantic/main.py", line 338, in pydantic.main.BaseModel.__init__
+TypeError: __init__() takes exactly 1 positional argument (2 given)
+2025-03-05 22:20:22,065 - aiogram.event - INFO - Update id=166374532 is not handled. Duration 0 ms by bot id=7919097605
+2025-03-05 22:20:22,066 - aiogram.event - ERROR - Cause exception while process update id=166374532 by bot id=7919097605
+TypeError: __init__() takes exactly 1 positional argument (2 given)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 297, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 146, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/user_context.py", line 23, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 264, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 115, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 124, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "main.py", line 69, in cmd_start
+    await message.answer(MESSAGES['welcome'], reply_markup=main_menu_keyboard())
+  File "/root/SMSBot/keyboards.py", line 8, in main_menu_keyboard
+    InlineKeyboardButton("📤 Invia Messaggio", callback_data="send_message"),
+  File "pydantic/main.py", line 338, in pydantic.main.BaseModel.__init__
+TypeError: __init__() takes exactly 1 positional argument (2 given)
+2025-03-05 22:20:35,910 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 22:20:35,913 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:20:35,914 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:21:59,210 - __main__ - INFO - Avvio bot...
+2025-03-05 22:21:59,211 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:21:59,211 - __main__ - INFO - Database inizializzato
+2025-03-05 22:21:59,225 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:21:59,304 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:22:03,812 - aiogram.event - INFO - Update id=166374533 is handled. Duration 208 ms by bot id=7919097605
+2025-03-05 22:22:12,709 - aiogram.event - INFO - Update id=166374534 is handled. Duration 146 ms by bot id=7919097605
+2025-03-05 22:22:15,750 - aiogram.event - INFO - Update id=166374535 is not handled. Duration 2 ms by bot id=7919097605
+2025-03-05 22:22:33,551 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 22:22:33,555 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:22:33,556 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:26:44,710 - __main__ - INFO - Avvio bot...
+2025-03-05 22:26:44,711 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:26:44,712 - __main__ - INFO - Database inizializzato
+2025-03-05 22:26:44,725 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:26:44,809 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:26:49,058 - aiogram.event - INFO - Update id=166374536 is handled. Duration 189 ms by bot id=7919097605
+2025-03-05 22:26:50,898 - aiogram.event - INFO - Update id=166374537 is handled. Duration 282 ms by bot id=7919097605
+2025-03-05 22:26:53,533 - aiogram.event - INFO - Update id=166374538 is handled. Duration 283 ms by bot id=7919097605
+2025-03-05 22:26:55,276 - aiogram.event - INFO - Update id=166374539 is handled. Duration 270 ms by bot id=7919097605
+2025-03-05 22:26:57,133 - aiogram.event - INFO - Update id=166374540 is handled. Duration 272 ms by bot id=7919097605
+2025-03-05 22:27:11,899 - aiogram.event - INFO - Update id=166374541 is handled. Duration 474 ms by bot id=7919097605
+2025-03-05 22:27:15,870 - aiogram.event - INFO - Update id=166374542 is not handled. Duration 2 ms by bot id=7919097605
+2025-03-05 22:27:27,866 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 22:27:27,870 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:27:27,871 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:27:33,611 - __main__ - INFO - Avvio bot...
+2025-03-05 22:27:33,612 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:27:33,613 - __main__ - INFO - Database inizializzato
+2025-03-05 22:27:33,627 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:27:33,733 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:27:36,776 - aiogram.event - INFO - Update id=166374543 is handled. Duration 184 ms by bot id=7919097605
+2025-03-05 22:27:38,049 - aiogram.event - INFO - Update id=166374544 is not handled. Duration 1 ms by bot id=7919097605
+2025-03-05 22:27:46,356 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 22:27:46,359 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:27:46,361 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 22:49:11,776 - __main__ - INFO - Avvio bot...
+2025-03-05 22:49:11,778 - database.database - INFO - Database inizializzato: /root/SMSBot/database/scheduler.db
+2025-03-05 22:49:11,778 - __main__ - INFO - Database inizializzato
+2025-03-05 22:49:11,805 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 22:49:11,905 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 22:49:18,709 - aiogram.event - INFO - Update id=166374545 is handled. Duration 178 ms by bot id=7919097605
+2025-03-05 22:49:21,120 - aiogram.event - INFO - Update id=166374546 is not handled. Duration 1 ms by bot id=7919097605
+2025-03-05 22:49:23,372 - aiogram.event - INFO - Update id=166374547 is handled. Duration 433 ms by bot id=7919097605
+2025-03-05 22:49:25,300 - aiogram.event - INFO - Update id=166374548 is handled. Duration 272 ms by bot id=7919097605
+2025-03-05 22:49:27,360 - aiogram.event - INFO - Update id=166374549 is not handled. Duration 1 ms by bot id=7919097605
+2025-03-05 22:49:29,106 - aiogram.event - INFO - Update id=166374550 is not handled. Duration 2 ms by bot id=7919097605
+2025-03-05 22:49:33,132 - aiogram.event - INFO - Update id=166374551 is handled. Duration 272 ms by bot id=7919097605
+2025-03-05 22:49:34,675 - aiogram.event - INFO - Update id=166374552 is handled. Duration 282 ms by bot id=7919097605
+2025-03-05 22:49:43,631 - aiogram.event - INFO - Update id=166374553 is handled. Duration 155 ms by bot id=7919097605
+2025-03-05 22:49:47,255 - aiogram.event - INFO - Update id=166374554 is handled. Duration 587 ms by bot id=7919097605
+2025-03-05 23:09:35,626 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 23:09:35,632 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:09:35,633 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 23:09:37,999 - __main__ - INFO - Avvio bot...
+2025-03-05 23:27:29,742 - __main__ - INFO - Avvio bot...
+2025-03-05 23:27:29,754 - __main__ - INFO - Database inizializzato
+2025-03-05 23:27:29,770 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 23:27:29,839 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:27:34,925 - aiogram.event - INFO - Update id=166374555 is not handled. Duration 1 ms by bot id=7919097605
+2025-03-05 23:27:34,954 - aiogram.event - ERROR - Cause exception while process update id=166374555 by bot id=7919097605
+NameError: name 'main_menu_keyboard' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 297, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 146, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/user_context.py", line 23, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 264, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 115, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 124, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "main.py", line 101, in cmd_start
+    await message.answer(MESSAGES['welcome'], reply_markup=main_menu_keyboard())
+NameError: name 'main_menu_keyboard' is not defined
+2025-03-05 23:27:52,243 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 23:27:52,247 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:27:52,248 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 23:29:58,781 - __main__ - INFO - Avvio bot...
+2025-03-05 23:29:58,782 - __main__ - INFO - Database inizializzato
+2025-03-05 23:29:58,795 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 23:29:58,860 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:30:18,828 - aiogram.event - INFO - Update id=166374556 is handled. Duration 212 ms by bot id=7919097605
+2025-03-05 23:30:23,854 - aiogram.event - INFO - Update id=166374557 is handled. Duration 312 ms by bot id=7919097605
+2025-03-05 23:30:30,623 - aiogram.event - INFO - Update id=166374558 is handled. Duration 274 ms by bot id=7919097605
+2025-03-05 23:30:34,570 - aiogram.event - INFO - Update id=166374559 is handled. Duration 149 ms by bot id=7919097605
+2025-03-05 23:30:37,987 - aiogram.event - INFO - Update id=166374560 is handled. Duration 643 ms by bot id=7919097605
+2025-03-05 23:30:53,090 - aiogram.event - INFO - Update id=166374561 is handled. Duration 294 ms by bot id=7919097605
+2025-03-05 23:30:55,946 - aiogram.event - INFO - Update id=166374562 is handled. Duration 283 ms by bot id=7919097605
+2025-03-05 23:31:46,059 - aiogram.event - INFO - Update id=166374563 is handled. Duration 213 ms by bot id=7919097605
+2025-03-05 23:32:05,375 - aiogram.event - INFO - Update id=166374564 is handled. Duration 188 ms by bot id=7919097605
+2025-03-05 23:32:09,901 - aiogram.event - INFO - Update id=166374565 is handled. Duration 283 ms by bot id=7919097605
+2025-03-05 23:32:27,120 - aiogram.event - INFO - Update id=166374566 is not handled. Duration 4 ms by bot id=7919097605
+2025-03-05 23:32:36,028 - aiogram.event - INFO - Update id=166374567 is handled. Duration 344 ms by bot id=7919097605
+2025-03-05 23:32:39,148 - aiogram.event - INFO - Update id=166374568 is handled. Duration 295 ms by bot id=7919097605
+2025-03-05 23:35:10,589 - aiogram.event - INFO - Update id=166374569 is handled. Duration 353 ms by bot id=7919097605
+2025-03-05 23:35:12,400 - aiogram.event - INFO - Update id=166374570 is handled. Duration 281 ms by bot id=7919097605
+2025-03-05 23:35:13,889 - aiogram.event - INFO - Update id=166374571 is not handled. Duration 3 ms by bot id=7919097605
+2025-03-05 23:50:43,308 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 23:50:43,312 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:50:43,314 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 23:50:45,574 - __main__ - INFO - Avvio bot...
+2025-03-05 23:50:45,575 - __main__ - INFO - Database inizializzato
+2025-03-05 23:50:45,592 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 23:50:45,596 - __main__ - ERROR - Errore scheduler: tuple index out of range
+2025-03-05 23:50:45,675 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:50:59,454 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-05 23:50:59,456 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:50:59,457 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-05 23:51:01,999 - __main__ - INFO - Avvio bot...
+2025-03-05 23:51:02,004 - __main__ - INFO - Database inizializzato
+2025-03-05 23:51:02,018 - aiogram.dispatcher - INFO - Start polling
+2025-03-05 23:51:02,087 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-05 23:51:17,486 - aiogram.event - INFO - Update id=166374572 is handled. Duration 200 ms by bot id=7919097605
+2025-03-05 23:51:19,813 - aiogram.event - INFO - Update id=166374573 is handled. Duration 325 ms by bot id=7919097605
+2025-03-05 23:51:21,971 - aiogram.event - INFO - Update id=166374574 is handled. Duration 344 ms by bot id=7919097605
+2025-03-05 23:51:25,376 - aiogram.event - INFO - Update id=166374575 is handled. Duration 151 ms by bot id=7919097605
+2025-03-05 23:51:27,793 - aiogram.event - INFO - Update id=166374576 is handled. Duration 864 ms by bot id=7919097605
+2025-03-05 23:51:42,971 - aiogram.event - INFO - Update id=166374577 is handled. Duration 294 ms by bot id=7919097605
+2025-03-05 23:51:45,038 - aiogram.event - INFO - Update id=166374578 is handled. Duration 282 ms by bot id=7919097605
+2025-03-05 23:51:50,705 - aiogram.event - INFO - Update id=166374579 is handled. Duration 343 ms by bot id=7919097605
+2025-03-05 23:51:52,624 - aiogram.event - INFO - Update id=166374580 is handled. Duration 297 ms by bot id=7919097605
+2025-03-05 23:51:53,624 - aiogram.event - INFO - Update id=166374581 is handled. Duration 288 ms by bot id=7919097605
+2025-03-05 23:51:54,552 - aiogram.event - INFO - Update id=166374582 is handled. Duration 327 ms by bot id=7919097605
+2025-03-05 23:51:55,744 - aiogram.event - INFO - Update id=166374583 is handled. Duration 280 ms by bot id=7919097605
+2025-03-07 19:04:21,398 - __main__ - INFO - Avvio bot...
+2025-03-07 19:04:21,399 - __main__ - INFO - Database inizializzato
+2025-03-07 19:04:21,413 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 19:04:21,489 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 19:04:21,541 - aiogram.event - INFO - Update id=166374589 is not handled. Duration 15 ms by bot id=7919097605
+2025-03-07 19:04:21,542 - aiogram.event - INFO - Update id=166374590 is not handled. Duration 15 ms by bot id=7919097605
+2025-03-07 19:04:21,542 - aiogram.event - INFO - Update id=166374591 is not handled. Duration 14 ms by bot id=7919097605
+2025-03-07 19:04:21,542 - aiogram.event - INFO - Update id=166374592 is not handled. Duration 14 ms by bot id=7919097605
+2025-03-07 19:04:21,543 - aiogram.event - INFO - Update id=166374595 is not handled. Duration 9 ms by bot id=7919097605
+2025-03-07 19:04:21,543 - aiogram.event - INFO - Update id=166374596 is not handled. Duration 9 ms by bot id=7919097605
+2025-03-07 19:04:21,543 - aiogram.event - INFO - Update id=166374597 is not handled. Duration 9 ms by bot id=7919097605
+2025-03-07 19:04:21,543 - aiogram.event - INFO - Update id=166374598 is not handled. Duration 8 ms by bot id=7919097605
+2025-03-07 19:04:21,544 - aiogram.event - INFO - Update id=166374599 is not handled. Duration 8 ms by bot id=7919097605
+2025-03-07 19:04:21,544 - aiogram.event - INFO - Update id=166374600 is not handled. Duration 8 ms by bot id=7919097605
+2025-03-07 19:04:21,544 - aiogram.event - INFO - Update id=166374601 is not handled. Duration 8 ms by bot id=7919097605
+2025-03-07 19:04:21,746 - aiogram.event - INFO - Update id=166374594 is handled. Duration 214 ms by bot id=7919097605
+2025-03-07 19:04:21,762 - aiogram.event - INFO - Update id=166374593 is handled. Duration 233 ms by bot id=7919097605
+2025-03-07 19:04:33,950 - aiogram.event - INFO - Update id=166374602 is handled. Duration 173 ms by bot id=7919097605
+2025-03-07 19:04:38,709 - aiogram.event - INFO - Update id=166374603 is handled. Duration 312 ms by bot id=7919097605
+2025-03-07 19:04:41,614 - aiogram.event - INFO - Update id=166374604 is handled. Duration 318 ms by bot id=7919097605
+2025-03-07 19:06:12,773 - aiogram.event - INFO - Update id=166374605 is handled. Duration 188 ms by bot id=7919097605
+2025-03-07 19:06:16,165 - aiogram.event - INFO - Update id=166374606 is handled. Duration 824 ms by bot id=7919097605
+2025-03-07 19:38:51,584 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 19:38:51,588 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 19:38:51,589 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 19:38:54,560 - __main__ - INFO - Avvio bot...
+2025-03-07 19:38:54,561 - __main__ - INFO - Database inizializzato
+2025-03-07 19:38:54,574 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 19:40:28,699 - __main__ - INFO - Avvio bot...
+2025-03-07 19:40:28,700 - __main__ - INFO - Database inizializzato
+2025-03-07 19:40:28,714 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 19:40:28,714 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 19:40:28,793 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 19:40:35,447 - aiogram.event - INFO - Update id=166374607 is handled. Duration 205 ms by bot id=7919097605
+2025-03-07 19:40:37,194 - aiogram.event - INFO - Update id=166374608 is handled. Duration 324 ms by bot id=7919097605
+2025-03-07 19:40:39,400 - aiogram.event - INFO - Update id=166374609 is handled. Duration 343 ms by bot id=7919097605
+2025-03-07 19:40:40,893 - aiogram.event - INFO - Update id=166374610 is handled. Duration 428 ms by bot id=7919097605
+2025-03-07 19:40:45,738 - aiogram.event - INFO - Update id=166374611 is handled. Duration 301 ms by bot id=7919097605
+2025-03-07 19:41:02,014 - aiogram.event - INFO - Update id=166374612 is handled. Duration 323 ms by bot id=7919097605
+2025-03-07 19:41:03,978 - aiogram.event - INFO - Update id=166374613 is handled. Duration 291 ms by bot id=7919097605
+2025-03-07 19:41:04,424 - aiogram.event - INFO - Update id=166374614 is handled. Duration 281 ms by bot id=7919097605
+2025-03-07 19:41:05,463 - aiogram.event - INFO - Update id=166374615 is handled. Duration 283 ms by bot id=7919097605
+2025-03-07 19:41:06,918 - aiogram.event - INFO - Update id=166374616 is handled. Duration 289 ms by bot id=7919097605
+2025-03-07 19:41:26,708 - aiogram.event - INFO - Update id=166374617 is handled. Duration 213 ms by bot id=7919097605
+2025-03-07 19:41:41,461 - aiogram.event - INFO - Update id=166374618 is handled. Duration 155 ms by bot id=7919097605
+2025-03-07 19:41:45,206 - aiogram.event - INFO - Update id=166374619 is handled. Duration 320 ms by bot id=7919097605
+2025-03-07 19:42:03,077 - aiogram.event - INFO - Update id=166374620 is handled. Duration 382 ms by bot id=7919097605
+2025-03-07 19:42:04,546 - aiogram.event - INFO - Update id=166374621 is handled. Duration 358 ms by bot id=7919097605
+2025-03-07 19:42:05,941 - aiogram.event - INFO - Update id=166374622 is not handled. Duration 4 ms by bot id=7919097605
+2025-03-07 19:42:16,007 - aiogram.event - INFO - Update id=166374623 is handled. Duration 314 ms by bot id=7919097605
+2025-03-07 19:42:17,833 - aiogram.event - INFO - Update id=166374624 is handled. Duration 286 ms by bot id=7919097605
+2025-03-07 19:43:46,652 - aiogram.event - INFO - Update id=166374625 is handled. Duration 368 ms by bot id=7919097605
+2025-03-07 19:43:47,935 - aiogram.event - INFO - Update id=166374626 is handled. Duration 289 ms by bot id=7919097605
+2025-03-07 19:44:25,768 - aiogram.event - INFO - Update id=166374627 is handled. Duration 327 ms by bot id=7919097605
+2025-03-07 19:44:28,019 - aiogram.event - INFO - Update id=166374628 is handled. Duration 285 ms by bot id=7919097605
+2025-03-07 19:44:32,728 - aiogram.event - INFO - Update id=166374629 is handled. Duration 157 ms by bot id=7919097605
+2025-03-07 19:45:41,978 - aiogram.event - INFO - Update id=166374630 is handled. Duration 365 ms by bot id=7919097605
+2025-03-07 19:45:43,732 - aiogram.event - INFO - Update id=166374631 is handled. Duration 320 ms by bot id=7919097605
+2025-03-07 19:45:45,189 - aiogram.event - INFO - Update id=166374632 is handled. Duration 300 ms by bot id=7919097605
+2025-03-07 19:45:47,304 - aiogram.event - INFO - Update id=166374633 is handled. Duration 314 ms by bot id=7919097605
+2025-03-07 19:45:49,263 - aiogram.event - INFO - Update id=166374634 is handled. Duration 296 ms by bot id=7919097605
+2025-03-07 19:45:51,332 - aiogram.event - INFO - Update id=166374635 is handled. Duration 314 ms by bot id=7919097605
+2025-03-07 19:45:53,335 - aiogram.event - INFO - Update id=166374636 is handled. Duration 308 ms by bot id=7919097605
+2025-03-07 19:46:09,237 - aiogram.event - INFO - Update id=166374637 is handled. Duration 206 ms by bot id=7919097605
+2025-03-07 19:46:23,487 - aiogram.event - INFO - Update id=166374638 is handled. Duration 233 ms by bot id=7919097605
+2025-03-07 19:46:26,094 - aiogram.event - INFO - Update id=166374639 is handled. Duration 324 ms by bot id=7919097605
+2025-03-07 20:03:28,630 - aiogram.event - INFO - Update id=166374640 is handled. Duration 196 ms by bot id=7919097605
+2025-03-07 20:03:32,891 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 20:03:32,895 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 20:03:32,897 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 20:03:32,899 - __main__ - INFO - Arresto del bot...
+2025-03-07 20:03:32,900 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 20:03:32,901 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 20:03:32,906 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 20:03:36,597 - __main__ - INFO - Avvio bot...
+2025-03-07 20:03:36,598 - __main__ - INFO - Database inizializzato
+2025-03-07 20:03:36,611 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 20:03:36,611 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 20:03:36,686 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 20:03:40,401 - aiogram.event - INFO - Update id=166374641 is handled. Duration 184 ms by bot id=7919097605
+2025-03-07 20:03:54,871 - aiogram.event - INFO - Update id=166374642 is handled. Duration 298 ms by bot id=7919097605
+2025-03-07 20:03:56,341 - aiogram.event - INFO - Update id=166374643 is handled. Duration 285 ms by bot id=7919097605
+2025-03-07 20:03:57,654 - aiogram.event - INFO - Update id=166374644 is handled. Duration 330 ms by bot id=7919097605
+2025-03-07 20:03:59,382 - aiogram.event - INFO - Update id=166374645 is handled. Duration 294 ms by bot id=7919097605
+2025-03-07 20:04:04,053 - aiogram.event - INFO - Update id=166374646 is not handled. Duration 4 ms by bot id=7919097605
+2025-03-07 20:30:33,749 - aiogram.event - INFO - Update id=166374647 is not handled. Duration 4 ms by bot id=7919097605
+2025-03-07 21:16:34,307 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 21:16:34,312 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:16:34,314 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 21:16:34,315 - __main__ - INFO - Arresto del bot...
+2025-03-07 21:16:34,316 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 21:16:34,317 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 21:16:34,322 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 21:16:38,200 - __main__ - INFO - Avvio bot...
+2025-03-07 21:16:38,201 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:16:38,202 - __main__ - INFO - Database inizializzato
+2025-03-07 21:16:38,215 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:16:38,216 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:16:38,217 - database.database - ERROR - Errore nel recupero dei messaggi programmati: fromisoformat: argument must be str
+2025-03-07 21:16:38,289 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:17:08,244 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 21:17:08,246 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:17:08,247 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 21:17:08,248 - __main__ - INFO - Arresto del bot...
+2025-03-07 21:17:08,248 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 21:17:08,249 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 21:17:08,251 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 21:17:10,736 - __main__ - INFO - Avvio bot...
+2025-03-07 21:17:10,741 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:17:10,742 - __main__ - INFO - Database inizializzato
+2025-03-07 21:17:10,755 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:17:10,756 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:17:10,817 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:17:16,079 - aiogram.event - INFO - Update id=166374648 is handled. Duration 194 ms by bot id=7919097605
+2025-03-07 21:17:21,501 - aiogram.event - INFO - Update id=166374649 is handled. Duration 293 ms by bot id=7919097605
+2025-03-07 21:17:28,496 - aiogram.event - INFO - Update id=166374650 is handled. Duration 299 ms by bot id=7919097605
+2025-03-07 21:17:31,904 - aiogram.event - INFO - Update id=166374651 is handled. Duration 278 ms by bot id=7919097605
+2025-03-07 21:17:33,580 - aiogram.event - INFO - Update id=166374652 is handled. Duration 289 ms by bot id=7919097605
+2025-03-07 21:17:35,069 - aiogram.event - INFO - Update id=166374653 is handled. Duration 308 ms by bot id=7919097605
+2025-03-07 21:17:36,170 - aiogram.event - INFO - Update id=166374654 is handled. Duration 1 ms by bot id=7919097605
+2025-03-07 21:17:39,330 - aiogram.event - INFO - Update id=166374655 is handled. Duration 150 ms by bot id=7919097605
+2025-03-07 21:17:45,967 - aiogram.event - INFO - Update id=166374656 is handled. Duration 280 ms by bot id=7919097605
+2025-03-07 21:17:47,811 - aiogram.event - INFO - Update id=166374657 is handled. Duration 280 ms by bot id=7919097605
+2025-03-07 21:17:51,379 - aiogram.event - INFO - Update id=166374658 is handled. Duration 145 ms by bot id=7919097605
+2025-03-07 21:17:53,743 - aiogram.event - INFO - Update id=166374659 is handled. Duration 593 ms by bot id=7919097605
+2025-03-07 21:18:11,005 - aiogram.event - INFO - Update id=166374660 is handled. Duration 335 ms by bot id=7919097605
+2025-03-07 21:18:14,346 - aiogram.event - INFO - Update id=166374661 is handled. Duration 307 ms by bot id=7919097605
+2025-03-07 21:18:16,593 - aiogram.event - INFO - Update id=166374662 is handled. Duration 293 ms by bot id=7919097605
+2025-03-07 21:18:18,513 - aiogram.event - INFO - Update id=166374663 is handled. Duration 319 ms by bot id=7919097605
+2025-03-07 21:18:19,682 - aiogram.event - INFO - Update id=166374664 is handled. Duration 286 ms by bot id=7919097605
+2025-03-07 21:18:20,980 - aiogram.event - INFO - Update id=166374665 is handled. Duration 301 ms by bot id=7919097605
+2025-03-07 21:18:25,172 - aiogram.event - INFO - Update id=166374666 is handled. Duration 295 ms by bot id=7919097605
+2025-03-07 21:22:08,220 - __main__ - INFO - Avvio bot...
+2025-03-07 21:22:08,222 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:22:08,222 - __main__ - INFO - Database inizializzato
+2025-03-07 21:22:08,236 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:22:08,237 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:22:08,326 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:22:08,560 - aiogram.event - INFO - Update id=166374668 is handled. Duration 200 ms by bot id=7919097605
+2025-03-07 21:22:08,572 - aiogram.event - INFO - Update id=166374669 is handled. Duration 209 ms by bot id=7919097605
+2025-03-07 21:26:12,334 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 21:26:12,339 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:26:12,340 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 21:26:12,342 - __main__ - INFO - Arresto del bot...
+2025-03-07 21:26:12,343 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 21:26:12,343 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 21:26:12,348 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 21:26:15,969 - __main__ - INFO - Avvio bot...
+2025-03-07 21:26:15,970 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:26:15,970 - __main__ - INFO - Database inizializzato
+2025-03-07 21:26:15,984 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:26:15,985 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:26:16,052 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:26:21,703 - aiogram.event - INFO - Update id=166374670 is handled. Duration 192 ms by bot id=7919097605
+2025-03-07 21:27:01,005 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 21:27:01,008 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:27:01,009 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 21:27:01,010 - __main__ - INFO - Arresto del bot...
+2025-03-07 21:27:01,010 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 21:27:01,011 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 21:27:01,013 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 21:27:03,114 - __main__ - INFO - Avvio bot...
+2025-03-07 21:27:03,116 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:27:03,116 - __main__ - INFO - Database inizializzato
+2025-03-07 21:27:03,129 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:27:03,129 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:27:03,200 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:27:06,735 - aiogram.event - INFO - Update id=166374671 is handled. Duration 187 ms by bot id=7919097605
+2025-03-07 21:27:19,387 - aiogram.event - INFO - Update id=166374672 is handled. Duration 310 ms by bot id=7919097605
+2025-03-07 21:27:20,996 - aiogram.event - INFO - Update id=166374673 is handled. Duration 1 ms by bot id=7919097605
+2025-03-07 21:27:28,263 - aiogram.event - INFO - Update id=166374674 is handled. Duration 148 ms by bot id=7919097605
+2025-03-07 21:27:30,054 - aiogram.event - INFO - Update id=166374675 is handled. Duration 322 ms by bot id=7919097605
+2025-03-07 21:27:31,653 - aiogram.event - INFO - Update id=166374676 is handled. Duration 273 ms by bot id=7919097605
+2025-03-07 21:27:34,938 - aiogram.event - INFO - Update id=166374677 is handled. Duration 151 ms by bot id=7919097605
+2025-03-07 21:27:37,125 - aiogram.event - INFO - Update id=166374678 is handled. Duration 600 ms by bot id=7919097605
+2025-03-07 21:27:49,040 - aiogram.event - INFO - Update id=166374679 is handled. Duration 306 ms by bot id=7919097605
+2025-03-07 21:27:50,731 - aiogram.event - INFO - Update id=166374680 is handled. Duration 277 ms by bot id=7919097605
+2025-03-07 21:27:52,384 - aiogram.event - INFO - Update id=166374681 is handled. Duration 272 ms by bot id=7919097605
+2025-03-07 21:27:53,895 - aiogram.event - INFO - Update id=166374682 is handled. Duration 301 ms by bot id=7919097605
+2025-03-07 21:27:54,845 - aiogram.event - INFO - Update id=166374683 is handled. Duration 278 ms by bot id=7919097605
+2025-03-07 21:27:55,818 - aiogram.event - INFO - Update id=166374684 is handled. Duration 280 ms by bot id=7919097605
+2025-03-07 21:27:57,417 - aiogram.event - INFO - Update id=166374685 is handled. Duration 281 ms by bot id=7919097605
+2025-03-07 21:28:02,648 - aiogram.event - INFO - Update id=166374686 is handled. Duration 151 ms by bot id=7919097605
+2025-03-07 21:28:17,700 - aiogram.event - INFO - Update id=166374687 is handled. Duration 144 ms by bot id=7919097605
+2025-03-07 21:28:20,241 - database.database - INFO - Aggiunto nuovo messaggio programmato con ID: 1
+2025-03-07 21:28:20,245 - database.database - INFO - Aggiunto nuovo messaggio programmato con ID: 2
+2025-03-07 21:28:20,516 - aiogram.event - INFO - Update id=166374688 is handled. Duration 284 ms by bot id=7919097605
+2025-03-07 21:28:38,728 - aiogram.event - INFO - Update id=166374689 is handled. Duration 313 ms by bot id=7919097605
+2025-03-07 21:28:41,051 - aiogram.event - INFO - Update id=166374690 is handled. Duration 318 ms by bot id=7919097605
+2025-03-07 21:28:50,350 - aiogram.event - INFO - Update id=166374691 is handled. Duration 297 ms by bot id=7919097605
+2025-03-07 21:28:55,726 - aiogram.event - INFO - Update id=166374692 is handled. Duration 286 ms by bot id=7919097605
+2025-03-07 21:28:57,939 - aiogram.event - INFO - Update id=166374693 is handled. Duration 279 ms by bot id=7919097605
+2025-03-07 21:29:02,874 - aiogram.event - INFO - Update id=166374694 is handled. Duration 289 ms by bot id=7919097605
+2025-03-07 21:29:04,785 - aiogram.event - INFO - Update id=166374695 is handled. Duration 156 ms by bot id=7919097605
+2025-03-07 21:29:20,885 - __main__ - ERROR - Errore nel toggle del messaggio: argument of type 'NoneType' is not iterable
+2025-03-07 21:29:21,034 - aiogram.event - INFO - Update id=166374696 is handled. Duration 358 ms by bot id=7919097605
+2025-03-07 21:29:28,178 - __main__ - ERROR - Errore nel toggle del messaggio: argument of type 'NoneType' is not iterable
+2025-03-07 21:29:28,332 - aiogram.event - INFO - Update id=166374697 is handled. Duration 300 ms by bot id=7919097605
+2025-03-07 21:29:31,730 - aiogram.event - INFO - Update id=166374698 is not handled. Duration 39 ms by bot id=7919097605
+2025-03-07 21:29:31,731 - aiogram.event - ERROR - Cause exception while process update id=166374698 by bot id=7919097605
+TelegramBadRequest: Telegram server says Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 297, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 146, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/user_context.py", line 23, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 264, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 115, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 124, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "main.py", line 508, in list_messages_handler
+    await callback.message.edit_text(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/methods/base.py", line 89, in emit
+    return await bot(self)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/bot.py", line 374, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/base.py", line 194, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/aiohttp.py", line 161, in make_request
+    response = self.check_response(method=method, status_code=resp.status, content=raw_result)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/base.py", line 111, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says Bad Request: there is no text in the message to edit
+2025-03-07 21:29:41,763 - aiogram.event - INFO - Update id=166374699 is handled. Duration 163 ms by bot id=7919097605
+2025-03-07 21:29:44,444 - aiogram.event - INFO - Update id=166374700 is handled. Duration 304 ms by bot id=7919097605
+2025-03-07 21:29:46,444 - aiogram.event - INFO - Update id=166374701 is handled. Duration 306 ms by bot id=7919097605
+2025-03-07 21:29:55,751 - aiogram.event - INFO - Update id=166374702 is handled. Duration 1 ms by bot id=7919097605
+2025-03-07 21:30:13,093 - aiogram.event - INFO - Update id=166374703 is handled. Duration 355 ms by bot id=7919097605
+2025-03-07 21:30:18,750 - aiogram.event - INFO - Update id=166374704 is handled. Duration 321 ms by bot id=7919097605
+2025-03-07 21:31:11,460 - aiogram.event - INFO - Update id=166374705 is handled. Duration 336 ms by bot id=7919097605
+2025-03-07 21:31:16,113 - aiogram.event - INFO - Update id=166374706 is handled. Duration 160 ms by bot id=7919097605
+2025-03-07 21:31:20,917 - __main__ - ERROR - Errore nel toggle del messaggio: argument of type 'NoneType' is not iterable
+2025-03-07 21:31:21,059 - aiogram.event - INFO - Update id=166374707 is handled. Duration 293 ms by bot id=7919097605
+2025-03-07 21:31:24,652 - aiogram.event - INFO - Update id=166374708 is not handled. Duration 24 ms by bot id=7919097605
+2025-03-07 21:31:24,653 - aiogram.event - ERROR - Cause exception while process update id=166374708 by bot id=7919097605
+TelegramBadRequest: Telegram server says Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 297, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 146, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/user_context.py", line 23, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 264, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 115, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 124, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "main.py", line 508, in list_messages_handler
+    await callback.message.edit_text(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/methods/base.py", line 89, in emit
+    return await bot(self)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/bot.py", line 374, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/base.py", line 194, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/aiohttp.py", line 161, in make_request
+    response = self.check_response(method=method, status_code=resp.status, content=raw_result)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/base.py", line 111, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says Bad Request: there is no text in the message to edit
+2025-03-07 21:31:32,153 - aiogram.event - INFO - Update id=166374709 is handled. Duration 158 ms by bot id=7919097605
+2025-03-07 21:31:53,337 - aiogram.event - INFO - Update id=166374710 is handled. Duration 322 ms by bot id=7919097605
+2025-03-07 21:31:55,683 - aiogram.event - INFO - Update id=166374711 is handled. Duration 300 ms by bot id=7919097605
+2025-03-07 21:32:00,390 - aiogram.event - INFO - Update id=166374712 is handled. Duration 328 ms by bot id=7919097605
+2025-03-07 21:32:03,761 - aiogram.event - INFO - Update id=166374713 is handled. Duration 152 ms by bot id=7919097605
+2025-03-07 21:32:09,314 - __main__ - ERROR - Errore nel toggle del messaggio: argument of type 'NoneType' is not iterable
+2025-03-07 21:32:09,447 - aiogram.event - INFO - Update id=166374714 is handled. Duration 294 ms by bot id=7919097605
+2025-03-07 21:32:14,143 - aiogram.event - INFO - Update id=166374715 is handled. Duration 148 ms by bot id=7919097605
+2025-03-07 21:32:26,682 - aiogram.event - INFO - Update id=166374716 is handled. Duration 290 ms by bot id=7919097605
+2025-03-07 21:38:58,887 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 21:38:58,889 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:38:58,890 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 21:38:58,891 - __main__ - INFO - Arresto del bot...
+2025-03-07 21:38:58,892 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 21:38:58,892 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 21:38:58,895 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 21:39:02,378 - __main__ - INFO - Avvio bot...
+2025-03-07 21:39:02,379 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:39:02,379 - __main__ - INFO - Database inizializzato
+2025-03-07 21:39:02,393 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:39:02,394 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:39:02,469 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:39:06,784 - aiogram.event - INFO - Update id=166374717 is handled. Duration 194 ms by bot id=7919097605
+2025-03-07 21:39:08,590 - aiogram.event - INFO - Update id=166374718 is handled. Duration 292 ms by bot id=7919097605
+2025-03-07 21:39:13,613 - aiogram.event - INFO - Update id=166374719 is handled. Duration 285 ms by bot id=7919097605
+2025-03-07 21:39:16,504 - aiogram.event - INFO - Update id=166374720 is handled. Duration 1 ms by bot id=7919097605
+2025-03-07 21:39:19,276 - aiogram.event - INFO - Update id=166374721 is handled. Duration 182 ms by bot id=7919097605
+2025-03-07 21:39:23,484 - aiogram.event - INFO - Update id=166374722 is handled. Duration 280 ms by bot id=7919097605
+2025-03-07 21:39:28,146 - aiogram.event - INFO - Update id=166374723 is handled. Duration 310 ms by bot id=7919097605
+2025-03-07 21:39:37,140 - aiogram.event - INFO - Update id=166374724 is handled. Duration 1 ms by bot id=7919097605
+2025-03-07 21:39:42,013 - aiogram.event - INFO - Update id=166374725 is handled. Duration 154 ms by bot id=7919097605
+2025-03-07 21:39:44,336 - aiogram.event - INFO - Update id=166374726 is handled. Duration 285 ms by bot id=7919097605
+2025-03-07 21:39:45,721 - aiogram.event - INFO - Update id=166374727 is handled. Duration 1 ms by bot id=7919097605
+2025-03-07 21:42:12,052 - aiogram.event - INFO - Update id=166374728 is handled. Duration 268 ms by bot id=7919097605
+2025-03-07 21:50:14,434 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-03-07 21:50:14,437 - aiogram.dispatcher - INFO - Polling stopped for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:50:14,438 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-07 21:50:14,440 - __main__ - INFO - Arresto del bot...
+2025-03-07 21:50:14,440 - __main__ - INFO - Cancellazione di 1 task in corso
+2025-03-07 21:50:14,441 - __main__ - INFO - Connessione del bot chiusa
+2025-03-07 21:50:14,446 - __main__ - INFO - Loop degli eventi chiuso
+2025-03-07 21:56:10,693 - __main__ - INFO - Avvio bot...
+2025-03-07 21:56:10,694 - database.database - INFO - Database inizializzato con successo
+2025-03-07 21:56:10,694 - __main__ - INFO - Database inizializzato
+2025-03-07 21:56:10,712 - __main__ - INFO - Bot avviato. Admin ID: 7824561726
+2025-03-07 21:56:10,713 - aiogram.dispatcher - INFO - Start polling
+2025-03-07 21:56:10,776 - aiogram.dispatcher - INFO - Run polling for bot @anonimosmsbot id=7919097605 - 'Anonimo SMS'
+2025-03-07 21:56:17,236 - aiogram.event - INFO - Update id=166374729 is handled. Duration 295 ms by bot id=7919097605
+2025-03-07 21:56:20,629 - aiogram.event - INFO - Update id=166374730 is handled. Duration 331 ms by bot id=7919097605
+2025-03-07 21:56:22,927 - aiogram.event - INFO - Update id=166374731 is handled. Duration 282 ms by bot id=7919097605
+2025-03-07 21:56:26,462 - aiogram.event - INFO - Update id=166374732 is handled. Duration 270 ms by bot id=7919097605
+2025-03-07 21:56:28,267 - aiogram.event - INFO - Update id=166374733 is handled. Duration 324 ms by bot id=7919097605
+2025-03-07 21:56:29,781 - aiogram.event - INFO - Update id=166374734 is handled. Duration 298 ms by bot id=7919097605
+2025-03-07 21:56:31,619 - aiogram.event - INFO - Update id=166374735 is handled. Duration 281 ms by bot id=7919097605
+2025-03-07 21:56:38,337 - aiogram.event - INFO - Update id=166374736 is handled. Duration 308 ms by bot id=7919097605
+2025-03-07 21:56:40,534 - aiogram.event - INFO - Update id=166374737 is handled. Duration 304 ms by bot id=7919097605
+2025-03-07 21:56:57,519 - aiogram.event - INFO - Update id=166374738 is handled. Duration 355 ms by bot id=7919097605
+2025-03-07 21:57:01,025 - aiogram.event - INFO - Update id=166374739 is handled. Duration 171 ms by bot id=7919097605
+2025-03-07 21:57:17,598 - aiogram.event - INFO - Update id=166374740 is not handled. Duration 72 ms by bot id=7919097605
+2025-03-07 21:57:17,599 - aiogram.event - ERROR - Cause exception while process update id=166374740 by bot id=7919097605
+TelegramBadRequest: Telegram server says Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 297, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 146, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/middlewares/user_context.py", line 23, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/fsm/middleware.py", line 39, in __call__
+    return await handler(event, data)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/dispatcher.py", line 264, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 115, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/router.py", line 124, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/telegram.py", line 123, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/dispatcher/event/handler.py", line 42, in call
+    return await wrapped()
+  File "main.py", line 508, in list_messages_handler
+    await callback.message.edit_text(
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/methods/base.py", line 89, in emit
+    return await bot(self)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/bot.py", line 374, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/base.py", line 194, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/aiohttp.py", line 161, in make_request
+    response = self.check_response(method=method, status_code=resp.status, content=raw_result)
+  File "/usr/local/lib/python3.8/dist-packages/aiogram/client/session/base.py", line 111, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says Bad Request: there is no text in the message to edit
+2025-03-07 21:57:32,254 - aiogram.event - INFO - Update id=166374741 is handled. Duration 155 ms by bot id=7919097605
+2025-03-07 21:57:34,286 - aiogram.event - INFO - Update id=166374742 is handled. Duration 344 ms by bot id=7919097605
+2025-03-07 21:57:36,537 - aiogram.event - INFO - Update id=166374743 is handled. Duration 343 ms by bot id=7919097605
+2025-03-07 21:57:37,795 - aiogram.event - INFO - Update id=166374744 is handled. Duration 305 ms by bot id=7919097605
+2025-03-07 21:57:39,712 - aiogram.event - INFO - Update id=166374745 is handled. Duration 291 ms by bot id=7919097605
+2025-03-07 21:57:43,865 - aiogram.event - INFO - Update id=166374746 is handled. Duration 314 ms by bot id=7919097605
+2025-03-07 21:57:47,856 - aiogram.event - INFO - Update id=166374747 is handled. Duration 169 ms by bot id=7919097605
+2025-03-07 22:01:07,012 - aiogram.event - INFO - Update id=166374748 is handled. Duration 227 ms by bot id=7919097605
+2025-03-07 22:01:42,987 - aiogram.event - INFO - Update id=166374749 is handled. Duration 354 ms by bot id=7919097605
+2025-03-07 22:01:44,871 - aiogram.event - INFO - Update id=166374750 is handled. Duration 291 ms by bot id=7919097605
+2025-03-07 22:01:53,121 - aiogram.event - INFO - Update id=166374751 is handled. Duration 299 ms by bot id=7919097605
+2025-03-07 22:01:56,841 - aiogram.event - INFO - Update id=166374752 is handled. Duration 282 ms by bot id=7919097605
+2025-03-07 22:01:59,522 - aiogram.event - INFO - Update id=166374753 is handled. Duration 291 ms by bot id=7919097605
+2025-03-07 22:02:02,165 - aiogram.event - INFO - Update id=166374754 is handled. Duration 290 ms by bot id=7919097605
+2025-03-07 22:02:03,814 - aiogram.event - INFO - Update id=166374755 is handled. Duration 284 ms by bot id=7919097605
+2025-03-08 00:17:53,547 - aiogram.event - INFO - Update id=166374756 is handled. Duration 350 ms by bot id=7919097605
+2025-03-08 00:17:57,723 - aiogram.event - INFO - Update id=166374757 is handled. Duration 160 ms by bot id=7919097605
+2025-03-08 10:00:16,689 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:00:21,872 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:00:27,034 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:00:27,035 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:00:27,200 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:00:32,372 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:00:37,569 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:00:37,573 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:01:37,792 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:01:42,995 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:01:48,163 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:01:48,165 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:01:48,339 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:01:53,495 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:01:58,654 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:01:58,656 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:02:58,890 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:03:04,048 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:03:09,204 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:03:09,209 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:03:09,368 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:03:14,540 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:03:19,706 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:03:19,707 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:04:19,961 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:04:25,154 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:04:30,316 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:04:30,319 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:04:30,478 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:04:35,657 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:04:40,909 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:04:40,912 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:05:41,157 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:05:46,368 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:05:51,532 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:05:51,538 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:05:51,768 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:05:56,944 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:06:02,124 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:06:02,130 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:07:02,389 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:07:07,564 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:07:12,729 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:07:12,731 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:07:12,896 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:07:18,057 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:07:23,269 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:07:23,272 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:08:23,552 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:08:28,716 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:08:33,888 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:08:33,895 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:08:34,070 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:08:39,248 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:08:44,467 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:08:44,469 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:09:44,689 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:09:49,855 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:09:55,016 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:09:55,021 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:09:55,211 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:10:00,390 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:10:05,549 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:10:05,554 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:11:05,769 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:11:10,932 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:11:16,218 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:11:16,259 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:11:16,434 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:11:21,636 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:11:26,816 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:11:26,819 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:12:27,046 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:12:32,207 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:12:37,373 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:12:37,375 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:12:37,543 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:12:42,704 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:12:47,867 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:12:47,869 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:13:48,081 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:13:53,267 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:13:58,512 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 1: 'sat' is not in list
+2025-03-08 10:13:58,513 - __main__ - ERROR - Messaggio 1 fallito dopo 3 tentativi
+2025-03-08 10:13:58,696 - __main__ - ERROR - Tentativo 1/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:14:03,855 - __main__ - ERROR - Tentativo 2/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:14:09,107 - __main__ - ERROR - Tentativo 3/3 fallito per il messaggio 2: 'sat' is not in list
+2025-03-08 10:14:09,110 - __main__ - ERROR - Messaggio 2 fallito dopo 3 tentativi
+2025-03-08 10:14:14,265 - aiogram.event - INFO - Update id=166374758 is handled. Duration 317 ms by bot id=7919097605
+2025-03-08 10:14:16,225 - aiogram.event - INFO - Update id=166374759 is handled. Duration 333 ms by bot id=7919097605
+2025-03-08 10:14:21,373 - aiogram.event - INFO - Update id=166374760 is handled. Duration 284 ms by bot id=7919097605
+2025-03-08 10:14:22,986 - aiogram.event - INFO - Update id=166374761 is handled. Duration 333 ms by bot id=7919097605
+2025-03-08 10:14:24,998 - aiogram.event - INFO - Update id=166374762 is handled. Duration 285 ms by bot id=7919097605
+2025-03-08 10:14:28,698 - aiogram.event - INFO - Update id=166374763 is handled. Duration 335 ms by bot id=7919097605
+2025-03-08 10:14:33,616 - aiogram.event - INFO - Update id=166374764 is handled. Duration 303 ms by bot id=7919097605
+2025-03-08 10:14:39,902 - aiogram.event - INFO - Update id=166374765 is handled. Duration 285 ms by bot id=7919097605
+2025-03-08 10:14:42,956 - aiogram.event - INFO - Update id=166374766 is handled. Duration 173 ms by bot id=7919097605
+2025-03-08 10:14:45,050 - __main__ - ERROR - Errore nel toggle del messaggio: argument of type 'NoneType' is not iterable
+2025-03-08 10:14:45,178 - aiogram.event - INFO - Update id=166374767 is handled. Duration 267 ms by bot id=7919097605
+2025-03-08 10:14:52,549 - aiogram.event - INFO - Update id=166374768 is handled. Duration 149 ms by bot id=7919097605
+2025-03-08 10:14:54,377 - aiogram.event - INFO - Update id=166374769 is handled. Duration 270 ms by bot id=7919097605
+2025-03-08 10:14:56,086 - aiogram.event - INFO - Update id=166374770 is handled. Duration 279 ms by bot id=7919097605
+2025-03-08 10:15:00,586 - aiogram.event - INFO - Update id=166374771 is handled. Duration 265 ms by bot id=7919097605
+2025-03-08 10:15:05,330 - aiogram.event - INFO - Update id=166374772 is handled. Duration 150 ms by bot id=7919097605
+2025-03-08 10:15:07,635 - __main__ - ERROR - Errore nel toggle del messaggio: argument of type 'NoneType' is not iterable
+2025-03-08 10:15:07,858 - aiogram.event - INFO - Update id=166374773 is handled. Duration 462 ms by bot id=7919097605
+2025-03-08 10:15:14,440 - aiogram.event - INFO - Update id=166374774 is handled. Duration 155 ms by bot id=7919097605
+2025-03-08 10:15:16,335 - aiogram.event - INFO - Update id=166374775 is handled. Duration 276 ms by bot id=7919097605
+2025-03-08 10:15:17,898 - aiogram.event - INFO - Update id=166374776 is handled. Duration 284 ms by bot id=7919097605
